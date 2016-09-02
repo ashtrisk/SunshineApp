@@ -10,20 +10,32 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity"
+        <activity
+            android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ashutosh.sunshinev2.MainActivity" />
+        </activity>
+        <activity android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ashutosh.sunshinev2.MainActivity" />
         </activity>
+m
+        <provider
+            android:authorities = "com.ashutosh.sunshinev2.app"
+            android:name = "com.ashutosh.sunshinev2.data.WeatherProvider"/>
     </application>
 
 </manifest>

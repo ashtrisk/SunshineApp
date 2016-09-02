@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$USER_HOME$/AndroidStudioProjects/sunshine-version-2/app/src/androidTest/java/com/example/android/sunshine/app/data/TestWeatherContract.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ashutosh/sunshinev2/FullTestSuite.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ashutosh/sunshinev2/data/TestDb.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ashutosh/sunshinev2/data/TestPractice.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ashutosh/sunshinev2/data/TestUtilities.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/ashutosh/sunshinev2/utils/PollingCheck.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ashutosh/sunshinev2/data/WeatherContract.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ashutosh/sunshinev2/data/WeatherDbHelper.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml" charset="windows-1252" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
